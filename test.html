@@ -1,0 +1,80 @@
+<html>
+<head> <!-- this is the head which should contain the title of the page-->
+<title>Con.co</title>
+<!-- Start of Async Drift Code -->
+<script>
+"use strict";
+
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('2ztirkw75pe2');
+</script>
+<!-- End of Async Drift Code -->
+</head>
+<body bgcolor="E27FEE">
+	 <div style="color:white; padding:20px;">
+		<h1 align="center"> Welcome to Connors Corner </h1>  <!-- here is the heading-->
+			<h2 align="center"> lol I taught myself HTML </h2> <!--here is the subheading-->
+				<p align="center"> What even is the cloud? </p> <!-- first paragraph on the page-->
+				<a href="file:///Users/connormilligan/Documents/about%20connor.html"> Learn More About Connor </a>
+				<p align="left"> Things that Connor is good at </p> <!-- start of the unlabeled list-->
+<!-- this is how you make an unlabeled bulleted list-->
+						<ul>
+							<li>Talking</li>
+							<li>Breathing</li>
+							<li>Eating</li>
+							<li>Sleeping</li>
+							<li>Coding?</li>
+						</<ul>
+						<br/>
+						<br/>
+						<br/>
+						<br/>
+				<p align="center"> <!-- here is how you insert an image or gif-->
+						<img src="2015-01-06 21.12.46.gif" height="500px" width="700px" border="10px" alt="" /> <!-- height and width commands modify the image-->
+				</p>
+				<p align= "center"> <a href="https://twitter.com/KondorMillz" target="_blank"> Check out my twitter </a> <!-- blank means that this will open into a new tab-->
+				</p><!-- inserting a link to my twitter-->
+
+		<!-- inserting a table-->	<!--<table border="2">
+			    <tr>
+			        <td>Red</td>
+			        <td>Blue</td>
+			        <td>Green</td>
+			    </tr>
+			    <tr>
+			        <td><br /></td>
+			        <td colspan="2"><br /></td>
+			    </tr>
+			</table> -->
+	<!--		<form> <!-- here is the format for a password entry form>
+    			<input type="text" name="username" /><br />
+    			<input type="password" name="password" /><br />
+					<input type="submit" value="Submit" />
+			</form>
+			<input type="checkbox" name="interests" value="1" />Memes <br />
+			<input type="checkbox" name="interests" value="2" />Stuff <br />
+			<input type="checkbox" name="interests" value="3" />Things <br />
+				</div>
+-->
+</body>
+</html>
